@@ -1,0 +1,40 @@
+/* Ajustes globales sobre Bootstrap */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+
+/* Cards de categorías y productos */
+.card-img-category {
+    max-height: 180px;
+    object-fit: cover;
+}
+
+.card-img-product {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Imagen detalle de producto */
+.product-detail-img {
+    max-height: 350px;
+    object-fit: cover;
+}
+
+/* Tablas admin (ya estilizadas con Bootstrap, aquí solo refuerzo) */
+.admin-table th,
+.admin-table td {
+    vertical-align: middle;
+}
+
+/* Errores genéricos */
+.error {
+    color: #b00020;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Ajustes de formularios compactos en checkout/login, si hace falta */
+.form-label {
+    font-weight: 500;
+}
